@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FD299E81B5EC60B004BE408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD299E71B5EC60B004BE408 /* AppDelegate.swift */; };
+		8FD299EA1B5EC60B004BE408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD299E91B5EC60B004BE408 /* ViewController.swift */; };
+		8FD299ED1B5EC60B004BE408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD299EB1B5EC60B004BE408 /* Main.storyboard */; };
+		8FD299EF1B5EC60B004BE408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD299EE1B5EC60B004BE408 /* Images.xcassets */; };
+		8FD299F21B5EC60B004BE408 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD299F01B5EC60B004BE408 /* LaunchScreen.xib */; };
+		8FD299FE1B5EC60B004BE408 /* Music_ShufflerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD299FD1B5EC60B004BE408 /* Music_ShufflerTests.swift */; };
+		8FD29A0B1B5EC87A004BE408 /* awake and alive.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8FD29A071B5EC87A004BE408 /* awake and alive.m4a */; };
+		8FD29A0C1B5EC87A004BE408 /* Comatose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8FD29A081B5EC87A004BE408 /* Comatose.m4a */; };
+		8FD29A0D1B5EC87A004BE408 /* don't wake me.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8FD29A091B5EC87A004BE408 /* don't wake me.m4a */; };
+		8FD29A0E1B5EC87A004BE408 /* Hero.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8FD29A0A1B5EC87A004BE408 /* Hero.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FD299F81B5EC60B004BE408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD299DA1B5EC60B004BE408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD299E11B5EC60B004BE408;
+			remoteInfo = "Music Shuffler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FD299E21B5EC60B004BE408 /* Music Shuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Shuffler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD299E61B5EC60B004BE408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD299E71B5EC60B004BE408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FD299E91B5EC60B004BE408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FD299EC1B5EC60B004BE408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FD299EE1B5EC60B004BE408 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FD299F11B5EC60B004BE408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8FD299F71B5EC60B004BE408 /* Music ShufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music ShufflerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD299FC1B5EC60B004BE408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD299FD1B5EC60B004BE408 /* Music_ShufflerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_ShufflerTests.swift; sourceTree = "<group>"; };
+		8FD29A071B5EC87A004BE408 /* awake and alive.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "awake and alive.m4a"; sourceTree = "<group>"; };
+		8FD29A081B5EC87A004BE408 /* Comatose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comatose.m4a; sourceTree = "<group>"; };
+		8FD29A091B5EC87A004BE408 /* don't wake me.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "don't wake me.m4a"; sourceTree = "<group>"; };
+		8FD29A0A1B5EC87A004BE408 /* Hero.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hero.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FD299DF1B5EC60B004BE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD299F41B5EC60B004BE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FD299D91B5EC60B004BE408 = {
+			isa = PBXGroup;
+			children = (
+				8FD299E41B5EC60B004BE408 /* Music Shuffler */,
+				8FD299FA1B5EC60B004BE408 /* Music ShufflerTests */,
+				8FD299E31B5EC60B004BE408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD299E31B5EC60B004BE408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FD299E21B5EC60B004BE408 /* Music Shuffler.app */,
+				8FD299F71B5EC60B004BE408 /* Music ShufflerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD299E41B5EC60B004BE408 /* Music Shuffler */ = {
+			isa = PBXGroup;
+			children = (
+				8FD29A0F1B5EC88E004BE408 /* Muic */,
+				8FD299E71B5EC60B004BE408 /* AppDelegate.swift */,
+				8FD299E91B5EC60B004BE408 /* ViewController.swift */,
+				8FD299EB1B5EC60B004BE408 /* Main.storyboard */,
+				8FD299EE1B5EC60B004BE408 /* Images.xcassets */,
+				8FD299F01B5EC60B004BE408 /* LaunchScreen.xib */,
+				8FD299E51B5EC60B004BE408 /* Supporting Files */,
+			);
+			path = "Music Shuffler";
+			sourceTree = "<group>";
+		};
+		8FD299E51B5EC60B004BE408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FD299E61B5EC60B004BE408 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD299FA1B5EC60B004BE408 /* Music ShufflerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FD299FD1B5EC60B004BE408 /* Music_ShufflerTests.swift */,
+				8FD299FB1B5EC60B004BE408 /* Supporting Files */,
+			);
+			path = "Music ShufflerTests";
+			sourceTree = "<group>";
+		};
+		8FD299FB1B5EC60B004BE408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FD299FC1B5EC60B004BE408 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD29A0F1B5EC88E004BE408 /* Muic */ = {
+			isa = PBXGroup;
+			children = (
+				8FD29A071B5EC87A004BE408 /* awake and alive.m4a */,
+				8FD29A081B5EC87A004BE408 /* Comatose.m4a */,
+				8FD29A091B5EC87A004BE408 /* don't wake me.m4a */,
+				8FD29A0A1B5EC87A004BE408 /* Hero.m4a */,
+			);
+			name = Muic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FD299E11B5EC60B004BE408 /* Music Shuffler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD29A011B5EC60B004BE408 /* Build configuration list for PBXNativeTarget "Music Shuffler" */;
+			buildPhases = (
+				8FD299DE1B5EC60B004BE408 /* Sources */,
+				8FD299DF1B5EC60B004BE408 /* Frameworks */,
+				8FD299E01B5EC60B004BE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music Shuffler";
+			productName = "Music Shuffler";
+			productReference = 8FD299E21B5EC60B004BE408 /* Music Shuffler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FD299F61B5EC60B004BE408 /* Music ShufflerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD29A041B5EC60B004BE408 /* Build configuration list for PBXNativeTarget "Music ShufflerTests" */;
+			buildPhases = (
+				8FD299F31B5EC60B004BE408 /* Sources */,
+				8FD299F41B5EC60B004BE408 /* Frameworks */,
+				8FD299F51B5EC60B004BE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD299F91B5EC60B004BE408 /* PBXTargetDependency */,
+			);
+			name = "Music ShufflerTests";
+			productName = "Music ShufflerTests";
+			productReference = 8FD299F71B5EC60B004BE408 /* Music ShufflerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FD299DA1B5EC60B004BE408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Brad Gray";
+				TargetAttributes = {
+					8FD299E11B5EC60B004BE408 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8FD299F61B5EC60B004BE408 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8FD299E11B5EC60B004BE408;
+					};
+				};
+			};
+			buildConfigurationList = 8FD299DD1B5EC60B004BE408 /* Build configuration list for PBXProject "Music Shuffler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FD299D91B5EC60B004BE408;
+			productRefGroup = 8FD299E31B5EC60B004BE408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FD299E11B5EC60B004BE408 /* Music Shuffler */,
+				8FD299F61B5EC60B004BE408 /* Music ShufflerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FD299E01B5EC60B004BE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD29A0E1B5EC87A004BE408 /* Hero.m4a in Resources */,
+				8FD29A0C1B5EC87A004BE408 /* Comatose.m4a in Resources */,
+				8FD29A0D1B5EC87A004BE408 /* don't wake me.m4a in Resources */,
+				8FD29A0B1B5EC87A004BE408 /* awake and alive.m4a in Resources */,
+				8FD299ED1B5EC60B004BE408 /* Main.storyboard in Resources */,
+				8FD299F21B5EC60B004BE408 /* LaunchScreen.xib in Resources */,
+				8FD299EF1B5EC60B004BE408 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD299F51B5EC60B004BE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FD299DE1B5EC60B004BE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD299EA1B5EC60B004BE408 /* ViewController.swift in Sources */,
+				8FD299E81B5EC60B004BE408 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD299F31B5EC60B004BE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD299FE1B5EC60B004BE408 /* Music_ShufflerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FD299F91B5EC60B004BE408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FD299E11B5EC60B004BE408 /* Music Shuffler */;
+			targetProxy = 8FD299F81B5EC60B004BE408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FD299EB1B5EC60B004BE408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD299EC1B5EC60B004BE408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FD299F01B5EC60B004BE408 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD299F11B5EC60B004BE408 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FD299FF1B5EC60B004BE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FD29A001B5EC60B004BE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FD29A021B5EC60B004BE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Music Shuffler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FD29A031B5EC60B004BE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Music Shuffler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FD29A051B5EC60B004BE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Music ShufflerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Shuffler.app/Music Shuffler";
+			};
+			name = Debug;
+		};
+		8FD29A061B5EC60B004BE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Music ShufflerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Shuffler.app/Music Shuffler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FD299DD1B5EC60B004BE408 /* Build configuration list for PBXProject "Music Shuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD299FF1B5EC60B004BE408 /* Debug */,
+				8FD29A001B5EC60B004BE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD29A011B5EC60B004BE408 /* Build configuration list for PBXNativeTarget "Music Shuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD29A021B5EC60B004BE408 /* Debug */,
+				8FD29A031B5EC60B004BE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FD29A041B5EC60B004BE408 /* Build configuration list for PBXNativeTarget "Music ShufflerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD29A051B5EC60B004BE408 /* Debug */,
+				8FD29A061B5EC60B004BE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FD299DA1B5EC60B004BE408 /* Project object */;
+}
